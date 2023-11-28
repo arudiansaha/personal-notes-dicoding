@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', var(--font-fallback);
+  font-size: 1em;
+  line-height: 1.5rem;
+  text-rendering: optimizeSpeed;
+  background-color: var(--color-neutral-01);
+  color: var(--color-neutral-00);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word;
+}
+
+picture,
+img,
+svg,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+select,
+option,
+textarea {
+  font: inherit;
+}

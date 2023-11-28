@@ -1,0 +1,28 @@
+.button {
+  cursor: pointer;
+  padding-block: 0.75em;
+  padding-inline: 1.25em;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: transparent;
+  color: inherit;
+}
+
+.button:focus {
+  outline-color: var(--color-neutral-02);
+}
+
+.button:active {
+  transform: scale(0.5);
+  transition: transform 800ms;
+}
+
+.button--primary {
+  background-color: var(--color-primary-00);
+  color: var(--color-neutral-01);
+}
+
+.button--secondary {
+  background-color: var(--color-primary-01);
+  color: var(--color-neutral-00);
+}
